@@ -1,0 +1,6 @@
+,Algorithm,Train R2 score,Test R2 Score,Train MSE,Test MSE,Comments
+1,StackingRegressor,0.993683,0.933078,0.144336,0.470853,Stacked Regression
+2,RandomForestRegressor,0.9899969670396518,0.9297161251804438,0.1816262392404608,0.4825346329272582,Trained on top 10 features; extracted from random forest
+3,XGBRegressor,0.9565094326751161,0.9252840214094074,0.3787130556223173,0.4975163820266425,Trained on PCA dataset
+7,GridSearchCV: AdaBoost,0.999881,0.932819,0.0197926,0.471763,AdaBoostUsing Grid search cv
+9,GridSearchCV,0.9545509317288464,0.9209752683768799,0.3871464067803076,0.5116608122208822,XGBoost Grid search cv on top 10 features
